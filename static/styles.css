@@ -1,0 +1,56 @@
+body {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  header, footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em;
+  }
+
+  header li {
+    display: inline;
+    margin: 30px;
+  }
+
+ #one {
+    color: #ffffff;
+  }
+
+  .for_border {
+    border-radius: 10px;
+    border-color: #000000;
+    border-width: 5px;
+    border-style: solid;
+    padding: 20px;
+  }
+
+#one:hover {
+    color:blue;
+}
+
+.buttons {
+    text-align: center;
+    margin: 20px;
+}
+
+#button {
+    font-family:'Courier New', Courier, monospace;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 50px;
+    border-radius: 10px;
+}
+
+button a {
+    text-decoration: none;
+}
+
+
+#button:hover, #button a {
+    background-color: #ffffff;
+    color: #000000;
+}
